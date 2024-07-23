@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ethanwalker.gosocial"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +23,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a23c5ba8-7b54-4713-98ff-e0eadc4fc18a"
+      }
     }
   }
 }
